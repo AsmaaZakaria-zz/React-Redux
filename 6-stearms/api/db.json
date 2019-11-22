@@ -1,0 +1,16 @@
+{
+  "streams": [
+    {
+      "title": "Tech stream",
+      "description": "technology stream live",
+      "userId": "115429248550411146308",
+      "id": 4
+    },
+    {
+      "title": "programming",
+      "description": "this is a prog channel",
+      "userId": "115429248550411146308",
+      "id": 5
+    }
+  ]
+}
