@@ -7,11 +7,15 @@ class Button extends React.Component {
   // contextType is a special name
   // static contextType = LanguageContext;
 
+  renderSubmit(language) {
+    return language === "english" ? "Submit" : "Indienen";
+  }
+
   renderButton(value) {
     return (
       <button className={`ui button ${value}`}>
         <LanguageContext.Consumer>
-          {(value) => value === "english" ? "Submit" : "Indienen"}
+          {({ language }) => this.renderSubmit(language)}
         </LanguageContext.Consumer>
       </button>
     )
